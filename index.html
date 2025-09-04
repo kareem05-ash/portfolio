@@ -9,21 +9,209 @@
 	<body>
 		<!-- Header Begin -->
 		<header id="header">
-			<h1>Kareem Ashraf Personal Protofolio</h1>
-			<!-- Navigation Bar -->
-			<nav></nav>
 			<!-- Hero -->
-			<img src="./imgs/profile.jpg" alt="profile-img.jpg" width="400" height="400">
+			<div id="hero">
+				<h1>Kareem Ashraf Personal Protofolio</h1>
+				<p>Digital IC Design & Verification Engineer | Full-Stack Web Dev Freelancer</p>
+				<img src="./imgs/profile.jpg" alt="profile-img.jpg" width="400" height="400">
+			</div>
+			<!-- Navigation Bar -->
+			<nav id="navbar">
+				<a href="#about">About</a>
+				<a href="#projects">Projects</a>
+				<a href="#skills">Skills</a>
+				<a href="#experience">Experience</a>
+				<a href="#certificates">Certificates</a>
+				<a href="#contact">Contact</a>
+			</nav>
 		</header>
 		<!-- Header End -->
+
 		<!-- Main Begin -->
 		<main id="main">
-			
+			<!-- About Section -->
+			<section id="about">
+				<h2>About Me</h2>
+				<p>Hi, I'm Kareem - a Communications & Electronics Engineering student at Cairo University, specializing in Digital IC Design & Verification.</p>
+				<p>I focus on Digital IC Design & Verification using <b>Verilog</b>, <b>SystemVerilog</b>, and <b>UVM</b>. Recently, I have built projects like a RISC-V Single Cycle Processor, UART modules, fully-automated self-checking testbenches, and ..etc.</p>
+				<a id="resume" href="./docs/Kareem_Resume.pdf" download>Download My Resume</a>
+			</section>
+			<!-- Projects Section -->
+			<section id="projects">
+				<h2>My Projects</h2>
+				<!-- Digital IC Design & Verification Projects -->
+				<div class="project_category">
+					<h3>Digital IC Design & Verification</h3>
+					<div class="project_grid">
+						<div class="project_card">
+							<img src="docs/" alt="RISC-V Project">
+							<h4>Single Cycle RISC-V RV32I Processor</h4>
+							<p>Designed and verified a single cycle RISC-V RV32I processor with automated testbenches.</p>
+							<a href="https://github.com/kareem05-ash/RISC_32I" target="_blank">View on GitHub</a>
+						</div>
+					</div>
+					<div class="project_grid">
+						<div class="project_card">
+							<img src="docs/" alt="UART Project">
+							<h4>UART Transceiver with FIFOs</h4>
+							<p>Designed and verified UART Transceiver (TX, RX) with synchronization FIFOs with fully-automated self-checking testbenches.</p>
+							<a href="https://github.com/kareem05-ash/UART_IP" target="_blank">View on GitHub</a>
+						</div>
+					</div>
+					<div class="project_grid">
+						<div class="project_card">
+							<img src="docs/" alt="PWM_Timer Project">
+							<h4>PWM_Timer Core with Wishbone Interface</h4>
+							<p>Designed PWM_Timer core with Wishbone slave complaint B4. Verified with fully-automated self-checking testbenches.</p>
+							<a href="https://github.com/kareem05-ash/PWM_Timer" target="_blank">View on GitHub</a>
+						</div>
+					</div>
+				</div>
+				<!-- Full-Stack Web Development -->
+				<div class="project_category">
+					<h3>Full-Stack Web Development</h3>
+					<div class="project_grid">
+						<div class="project_card">
+							<img src="docs/" alt="">
+							<h4></h4>
+							<p></p>
+							<a href="https://github.com/kareem05-ash/" target="_blank">View on GitHub</a>
+						</div>
+					</div>
+				</div>
+				<!-- Software, Scripting, & Automation -->
+				<div class="project_category">
+					<h3>Software, Scripting, & Automation</h3>
+					<div class="project_grid">
+						<div class="project_card">
+							<img src="docs/" alt="To-Do List Project">
+							<h4>To-Do List (Task Manager) CLI App</h4>
+							<p>A functional CLI app to manage tasks easily. It supports many todo list app features (e.g., add, show, finish, delete, delete_finished, undo, rst, and..etc)</p>
+							<a href="https://github.com/kareem05-ash/To-Do_List" target="_blank">View on GitHub</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Skills Section -->
+			<section id="skills">
+				<h2>My Skills</h2>
+				<div class="skill_grid">
+					<!-- Programming Languages -->
+					<div class="skill_category">
+						<h3>Programming Languages</h3>
+						<ul>
+							<li>Verilog</li>
+							<li>SystemVerilog</li>
+							<li>VHDL</li>
+							<li>Python</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>C/C++</li>
+							<li>JavaScript</li>
+						</ul>
+					</div>
+					<!-- Tools & Frameworks -->
+					<div class="skill_category">
+						<h3>Tools & Frameworks</h3>
+						<ul>
+							<li>Git & GitHub</li>
+							<li>PowerShell</li>
+							<li>Linux</li>
+							<li>QuestaSim/ModelSim</li>
+							<li>Xilinix Vivado</li>
+							<li>UVM</li>
+						</ul>
+					</div>
+					<!-- Soft Skills -->
+					<div class="skill_category">
+						<h3>Soft Skills</h3>
+						<ul>
+							<li>Documentation (README.md, report.pdf, etc...)</li>
+							<li>Time Managements & Productivity Tools</li>
+							<li>Touch Typing (55 WpM)</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- Experience Section -->
+			<section id="experience">
+				<h2>Experience</h2>
+			</section>
+			<!-- Certificates Section -->
+			<section id="certificates">
+				<h2>Certificates</h2>
+				<div class="certificate_grid">
+					<!-- Python_NTI Certificate -->
+					<div class="certificate">
+						<a href="https://www.linkedin.com/in/kareemashraf05/details/certifications/1755112926932/single-media-viewer?type=LINK&profileId=ACoAAFcB95MBFo4CEbzkRJFJvaOXJtkQXmivJgQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FTOG%2B35%2BTIeZgRa1ViBhag%3D%3D" target="_blank">
+							<img src="./imgs/python_nti.png" alt="Python_NTI Certificate">
+						</a>
+						<p>Programming Using <b>Python</b></p>
+						<p>From: National Telecommunication Institute <b>(NTI)</b></p>
+					</div>
+					<!-- Digital-Design_IEEE Certificate -->
+					<div class="certificate">
+						<a href="https://www.linkedin.com/in/kareemashraf05/details/certifications/1753198001593/single-media-viewer?type=DOCUMENT&profileId=ACoAAFcB95MBFo4CEbzkRJFJvaOXJtkQXmivJgQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRMucgABeQDCTB6JLkSahOg%3D%3D" target="_blank">
+							<img src="./imgs/digital_ieee.png" alt="Digital-Design_IEEE Certificate">
+						</a>
+						<p>Digital IC Design, <b>FPGA</b> Flow</p>
+						<p>From: <b>IEEE CUSB</b></p>
+					</div>
+					<!-- PCB-Design-Altium_IEEE Certificate -->
+					<div class="certificate">
+						<a href="https://www.linkedin.com/in/kareemashraf05/details/certifications/1752310510496/single-media-viewer?type=DOCUMENT&profileId=ACoAAFcB95MBFo4CEbzkRJFJvaOXJtkQXmivJgQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRMucgABeQDCTB6JLkSahOg%3D%3D" target="_blank">
+							<img src="./imgs/pcb_iee.png" alt="PCB-Design-Altium_IEEE Certificate">
+						</a>
+						<p>PCB Design Using <b>Altium</b></p>
+						<p>From: <b>IEEE</b></p>
+					</div>
+					<!-- UMRF_TCCD Certificate -->
+					<div class="certificate">
+						<a href="https://www.linkedin.com/in/kareemashraf05/details/certifications/1752311350629/single-media-viewer?type=IMAGE&profileId=ACoAAFcB95MBFo4CEbzkRJFJvaOXJtkQXmivJgQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRMucgABeQDCTB6JLkSahOg%3D%3D" target="_blank">
+							<img src="./imgs/umrf_tccd.png" alt="UMRF_TCCD Certificate">
+						</a>
+						<p>Programming Using <b>Python</b></p>
+						<p>From: Technical Center for Career Development <b>(TCCD)</b></p>
+					</div>
+				</div>
+			</section>
+			<!-- Contact Section -->
+			<section id="contact">
+				<h2>Contact Me</h2>
+				<a href="https://www.linkedin.com/in/kareemashraf05" target="_blank">Contact Me on Linkedin</a><br><br>
+				<a href="https://github.com/kareem05-ash" target="_blank">Contact Me on GitHub</a><br><br>
+				<a href="mailto:kareem.ash05@gmail.com">Send Me a Mail</a><br><br>
+				<a href="https://wa.me/+201002321067?text=Hello%20Kareem%2C%20I%20want%20to%20connect%20with%20you" target="_blank">Chat Me on Whatsapp</a><br><br>
+				<form action="" method="post" target="_blank">
+					<h3>Send Message Directly</h3>
+					<div class="form_input">
+						<label for="username">Your Name</label>
+						<input id="username" type="text" required placeholder="Enter Your Name" autofocus minlength="3" maxlength="20" name="username">
+					</div><br>
+					<div class="form_input">
+						<label for="email">Your E-Mail</label>
+						<input id="email" type="email" required placeholder="enter@your.email" name="email">
+					</div><br>
+					<div class="form_input">
+						<label for="msg">Enter Your Message</label>
+						<input id="msg" type="text" required placeholder="Hi, Kareem. I...." name="msg">
+					</div><br>
+					<input type="reset" value="Reset" name="reset">
+					<input type="submit" value="Send Message" name="submit">
+				</form>
+			</section>
 		</main>
 		<!-- Main End -->
+
 		<!-- Footer Begin -->
 		<footer id="footer">
-			
+			<p id="copy_rights"><strong>&copy; 2025 Kareem Ashraf</strong></p>
+			<div id="social_media">
+				<a class="social_github" href="https://github.com/kareem05-ash" target="_blank">GitHub</a>
+				<a class="social_linkedin" href="https://www.linkedin.com/in/kareemashraf05" target="_blank">Linkedin</a>
+				<a class="social_instagram" href="https://instagram.com/kareemashraf815" target="_blank">Instagram</a>
+				<a class="social_facebook" href="https://www.facebook.com/share/19zFFnX6SN/" target="_blank">Facebook</a>
+			</div>
 		</footer>
 		<!-- Footer End -->
 	</body>
